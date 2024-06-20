@@ -149,7 +149,7 @@ export default function Home() {
             </button>
           </div>
           {result && (
-            <div className="mt-5">
+            <div className="bg-white m-5 p-5 font-bold rounded-lg">
               <p
                 className={`text-lg ${
                   result.annualProfitLow >= 1000000
